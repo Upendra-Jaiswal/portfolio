@@ -56,7 +56,7 @@ const NAV = () => {
               href="/"
               sx={{
                 mr: 2,
-                display: { xs: "none", md: "flex" },
+                display: { xs: "block", md: "flex" },
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
