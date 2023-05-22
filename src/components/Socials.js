@@ -5,8 +5,7 @@ import "../css/socials.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import styled from "@emotion/styled";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import classes from "./socials.module.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -17,10 +16,6 @@ import GithubImg from "../photos/GithubImage.png";
 import TwitterImg from "../photos/TwitterImage.png";
 import LinkedInImg from "../photos/LinkedInImage.png";
 
-import Home from "../components/Socials";
-import GitHub from "../components/SocialsHandles/GitHub";
-import Twitter from "../components/SocialsHandles/Twitter";
-import LinkedIn from "../components/SocialsHandles/LinkedIn";
 const upendra = {
   githubhandle: "https://github.com/Upendra-Jaiswal",
   twitterhandle: "https://twitter.com/upendraj20",

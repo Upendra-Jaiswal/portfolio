@@ -1,19 +1,17 @@
 import ImageSlider from "./ImageSlider";
-import Github from "../photos/GithubImage.png";
-import Twitter from "../photos/TwitterImage.png";
+import twitterWEB3dApp from "../photos/twitterWEB3dApp.png";
+import lotteryDapp from "../photos/lotteryDapp.png";
+import transferWithdrawDAPP from "../photos/transferWithdrawDAPP.png";
 const App = () => {
   const slides = [
-    { url: Github , title: "beach" },
-    { url:Twitter, title: "boat" },
-    { url: Github , title: "forest" },
-    { url: Twitter, title: "city" },
-    { url:Github , title: "italy" },
+    { url: twitterWEB3dApp, title: "twitterWEB3dApp" },
+    { url: lotteryDapp, title: "lotteryDapp" },
+    { url: transferWithdrawDAPP, title: "transferWithdrawDAPP" },
   ];
   const containerStyles = {
     width: "500px",
     height: "280px",
     margin: "0 auto",
-    
   };
   return (
     <div>
