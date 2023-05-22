@@ -1,6 +1,15 @@
+/* * {
+  background-color: black;
+} */
+
 .App {
   text-align: center;
 }
+/* .Footer{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: black;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -34,5 +43,26 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Set the main content area to be centered on smaller screens */
+@media (max-width:  480px) {
+  html {
+    position:absolute;
+    width: 100%;
+  }
+  ,
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Set the header and footer to be hidden on smaller screens */
+@media (max-width: 480px) {
+  header,
+  footer {
+    display: none;
   }
 }

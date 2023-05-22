@@ -1,0 +1,50 @@
+.linkedIN {
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+
+.insideButton {
+  font-size: 15px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.github {
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  background-color: #555555;
+}
+
+.twitter {
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  background-color: #1da1f2;
+}
+
+div.relative {
+  position: relative;
+  left: 70px 50px;
+  top: 100px;
+}
+
+@media (max-width: 200px) {
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

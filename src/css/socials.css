@@ -1,0 +1,43 @@
+li {
+  display: block;
+  margin: 20px;
+}
+
+.Menu {
+  height: 200px;
+  width: 400px;
+  margin: 200px;
+  background-color: red;
+}
+
+.MenuItem {
+  height: 200px;
+  width: 400px;
+  margin: 200px;
+  background-color: blue;
+}
+
+.Container {
+  margin: 1000px;
+}
+
+.image {
+  width: 700px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+/*
+style={{
+            borderRadius: "50%",
+            overflow: "hidden",
+            objectFit: "cover",
+          }} */
+
+/* style={{ width: 800, height: 500 }}  style={{ width: 600, height: 300 }}  */
