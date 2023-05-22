@@ -99,7 +99,9 @@ const Socials = () => {
         <Row>
           <a href={upendra.githubhandle}>
             {" "}
-            <button className={classes.insideButton}>go to github</button>
+            <button className={classes.insideButton}>
+              go to upendra's github
+            </button>
           </a>
         </Row>{" "}
         <div>
@@ -115,7 +117,9 @@ const Socials = () => {
         <Row>
           <a href={upendra.twitterhandle}>
             {" "}
-            <button className={classes.insideButton}>go to twitter</button>
+            <button className={classes.insideButton}>
+              go to upendra's twitter
+            </button>
           </a>
         </Row>
         <div>
@@ -140,11 +144,7 @@ const Socials = () => {
           </Row>
         </div>
         <div>
-          <img
-            src={LinkedInImg}
-            alt={"LinkedInImg"}
-            className="image"
-          />
+          <img src={LinkedInImg} alt={"LinkedInImg"} className="image" />
         </div>
       </div>
     );
