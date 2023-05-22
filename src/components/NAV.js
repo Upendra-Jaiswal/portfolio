@@ -14,6 +14,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { FaApple } from "react-icons/fa";
+import "../App.css";
 
 const pages = ["resume", "projects", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -40,32 +41,33 @@ const NAV = () => {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          {/* <FaApple
+    <div>
+      <AppBar position="static">
+        <Container maxWidth="xl">
+          <Toolbar disableGutters>
+            {/* <FaApple
             size={32}
             sx={{ display: { xs: "none", md: "flex" }, m: 1 }}
           /> */}
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            portfolio
-          </Typography>
+            <Typography
+              variant="h6"
+              noWrap
+              component="a"
+              href="/"
+              sx={{
+                mr: 2,
+                display: { xs: "none", md: "flex" },
+                fontFamily: "monospace",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
+              portfolio
+            </Typography>
 
-          {/* <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+            {/* <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -101,8 +103,8 @@ const NAV = () => {
               ))}
             </Menu>
           </Box> */}
-          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
-          {/* <Typography
+            {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
+            {/* <Typography
             variant="h5"
             noWrap
             component="a"
@@ -120,7 +122,7 @@ const NAV = () => {
           >
             LOGO
           </Typography> */}
-          {/* <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            {/* <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -132,7 +134,7 @@ const NAV = () => {
             ))}
           </Box> */}
 
-          <Box sx={{ flexGrow: 0 }}>
+            {/* <Box sx={{ flexGrow: 0 }}> */}
             {/* <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -160,10 +162,11 @@ const NAV = () => {
                 </MenuItem>
               ))}
             </Menu> */}
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
+            {/* </Box> */}
+          </Toolbar>
+        </Container>
+      </AppBar>
+    </div>
   );
 };
 

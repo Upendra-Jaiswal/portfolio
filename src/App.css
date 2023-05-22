@@ -59,10 +59,14 @@
   }
 }
 
+
 /* Set the header and footer to be hidden on smaller screens */
 @media (max-width: 480px) {
   header,
-  footer {
+  footer,
+   {
     display: none;
   }
 }
+
+
