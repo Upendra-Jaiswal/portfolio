@@ -1,0 +1,26 @@
+[
+  {
+    "key": 1,
+    "title": "React E-Commerce",
+    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "description": " A user-friendly online store for sorting, and purchasing products, featuring a seamless checkout and payment process.",
+    "demo": "https://my-e-commercewebappspa.vercel.app",
+    "source": "https://github.com/Upendra-Jaiswal/myE-CommerceWebApp"
+  },
+  {
+    "key": 2,
+    "title": "Crypto Dashboard",
+    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
+    "description": "Real-time cryptocurrency tracking tool offering market trends, price updates for informed investment decisions.",
+    "demo": "https://bomb-dashboard-upendra.netlify.app",
+    "source": "https://github.com/Upendra-Jaiswal/crossChainCryptoDashboard"
+  },
+  {
+    "key": 3,
+    "title": "Food Delight",
+    "imageSrc": "https://cdn.pixabay.com/photo/2016/08/16/17/12/skyscrapers-1598418_640.jpg",
+    "description": "Convenient platform for ordering meals from local restaurants, tracking deliveries, and making online payments with ease..",
+    "demo": "https://food-delight-nu.vercel.app",
+    "source": "https://github.com/Upendra-Jaiswal/Food-Delight"
+  }
+]

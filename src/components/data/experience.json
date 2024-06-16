@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "role": "Full Stack Developer",
+    "organisation": "Capgemini",
+    "startDate": "February, 2022",
+    "endDate": "Present",
+    "location": "Bengaluru, KA",
+    "experiences": ["Contributed to Full stack Projects"]
+  },
+  {
+    "id": 2,
+    "role": "Intern",
+    "organisation": "Axlesys",
+    "startDate": "Sept, 2020",
+    "endDate": "Jan, 2021",
+    "location": " ",
+    "experiences": ["Contributed to MERN projects"]
+  }
+]
