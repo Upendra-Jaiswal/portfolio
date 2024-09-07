@@ -1,16 +1,16 @@
 [
   {
     "key": 1,
-    "title": "React E-Commerce",
-    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
-    "description": " A user-friendly online store for sorting, and purchasing products, featuring a seamless checkout and payment process.",
-    "demo": "https://my-e-commercewebappspa.vercel.app",
-    "source": "https://github.com/Upendra-Jaiswal/myE-CommerceWebApp"
+    "title": "SubBuddy",
+    "imageSrc": "projects/subbuddylogo.jpg",
+    "description": "Subbuddy simplifies subscription sharing by connecting users, reducing costs, and managing subscriptions effortlessly",
+    "demo": "https://sub-buddy-online.vercel.app",
+    "source": "https://github.com/Upendra-Jaiswal/SubBuddy"
   },
   {
     "key": 2,
     "title": "Crypto Dashboard",
-    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
+    "imageSrc": "projects/bcoinbomb.jpeg",
     "description": "Real-time cryptocurrency tracking tool offering market trends, price updates for informed investment decisions.",
     "demo": "https://bomb-dashboard-upendra.netlify.app",
     "source": "https://github.com/Upendra-Jaiswal/crossChainCryptoDashboard"
@@ -18,9 +18,17 @@
   {
     "key": 3,
     "title": "Food Delight",
-    "imageSrc": "https://cdn.pixabay.com/photo/2016/08/16/17/12/skyscrapers-1598418_640.jpg",
+    "imageSrc": "projects/fooddelight_.jpeg",
     "description": "Convenient platform for ordering meals from local restaurants, tracking deliveries, and making online payments with ease..",
     "demo": "https://food-delight-nu.vercel.app",
     "source": "https://github.com/Upendra-Jaiswal/Food-Delight"
+  },
+  {
+    "key": 4,
+    "title": "React E-Commerce",
+    "imageSrc": "projects/ecomm.jpeg",
+    "description": " A user-friendly online store for sorting, and purchasing products, featuring a seamless checkout and payment process.",
+    "demo": "https://my-e-commercewebappspa.vercel.app",
+    "source": "https://github.com/Upendra-Jaiswal/myE-CommerceWebApp"
   }
 ]

@@ -24,7 +24,7 @@ const Projects = () => {
                   data-aos-duration="1000"
                 >
                   <div className="img d-flex justify-content-center align-content-center p-3">
-                    <img
+                    {/* <img
                       src={data.imageSrc}
                       className="card-img-top"
                       alt="..."
@@ -34,7 +34,21 @@ const Projects = () => {
                         border: "2px solid yellow",
                         borderRadius: "10px",
                       }}
+                    /> */}
+
+                    <img
+                      src={`/assets/${data.imageSrc}`}
+                      className="card-img-top"
+                      alt="..."
+                      style={{
+                        width: "250px",
+                        height: "200px",
+                        border: "2px solid yellow",
+                        borderRadius: "10px",
+                      }}
                     />
+
+                    {/* <img src={`/assets/${hero.imgSrc}`} alt="hero" /> */}
                   </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">{data.title}</h5>
