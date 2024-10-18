@@ -17,11 +17,11 @@
   },
   {
     "key": 3,
-    "title": "Food Delight",
-    "imageSrc": "projects/fooddelight_.jpeg",
-    "description": "Convenient platform for ordering meals from local restaurants, tracking deliveries, and making online payments with ease..",
-    "demo": "https://food-delight-nu.vercel.app",
-    "source": "https://github.com/Upendra-Jaiswal/Food-Delight"
+    "title": "Trooking",
+    "imageSrc": "projects/trooking.jpg",
+    "description": "Trook simplifies trip bookings, offering easy delivery tracking and secure payments through PhonePe",
+    "demo": "https://trooking.vercel.app",
+    "source": "https://github.com/Upendra-Jaiswal/Trooking"
   },
   {
     "key": 4,

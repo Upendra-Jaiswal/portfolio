@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact" id="contact">
-        <h1>CONTACT ME</h1>
+        <h1>CONTACT</h1>
         <div
           className="contact-icon"
           data-aos="zoom-in-up"
